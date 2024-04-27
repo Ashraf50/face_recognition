@@ -41,7 +41,6 @@ dependencies:
   sqflite: ^2.3.2
   tflite_flutter: ^0.10.4
   flutter_bloc: ^8.1.5
-  rename: ^2.1.1
 
 
 dev_dependencies:
