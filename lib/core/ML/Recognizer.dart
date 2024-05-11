@@ -14,7 +14,6 @@ class Recognizer {
   final dbHelper = DatabaseHelper();
   Map<String, Recognition> registered = Map();
 
-  //TODO: if we want to use face_net model we can pass it's name to modelName variable
 
   @override
   String get modelName => 'assets/mobile_face_net.tflite';

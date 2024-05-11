@@ -22,7 +22,7 @@ class FacePainter extends CustomPainter {
       TextSpan textSpan = TextSpan(
         text: face.name,
         style: const TextStyle(
-          color: Colors.black,
+          color: Colors.red,
           fontSize: 40,
           fontWeight: FontWeight.bold,
         ),
@@ -35,8 +35,8 @@ class FacePainter extends CustomPainter {
       textPainter.paint(
         canvas,
         Offset(
-          face.location.top,
-          face.location.bottom + 550,
+          face.location.top + 120,
+          face.location.top + -80,
         ),
       );
     }
